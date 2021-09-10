@@ -1,0 +1,182 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+
+
+html{
+  background-color:black;
+  font-family:Helvetica;
+  font-size: 22px;
+  color:seashell;
+
+}
+
+.head-view img{
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+ 
+}
+
+.head-view li{
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+ 
+}
+.head-view a{
+  color: seashell;
+  text-decoration: underline;
+}
+.head-view{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  display: block;
+  background-color: black;
+
+}
+
+ .title-h2, .title-h4{
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left:5%;
+  background-color: black;
+}
+
+
+.title-view{
+  height: 700px;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 1180px 700px;
+  display: block;
+  background-position: center;
+}
+
+.image{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.image-h2, .image-p{
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+
+}
+.image-h2{
+padding-top: 30px;
+}
+
+.image-p{
+  padding-bottom: 10px;
+
+}
+.img-view{
+  display: block;
+  width:1000px ;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.img-viewer{
+  display: inline-block; 
+  padding: 10px; 
+}
+.img-h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.location{
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: 1180px 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  height: 500px;
+
+}
+
+.location h2{
+  display: block;
+  position: relative;
+  top: 32%;
+  text-align: center;
+  margin-bottom: 15px;
+
+
+}
+
+.location-view{
+  display: block;
+  width: 1180px;
+  height: 500px;
+  text-align: center;
+}
+.location-downtown{
+  width: 300px;
+  height: 205px;
+  display: block;
+  position: relative;
+  left: 10%;
+  top: 34%;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+
+
+}
+.location-east{
+  width: 300px;
+  height: 205px;
+  display: block;
+  position: relative;
+  bottom:6.9%;
+  left: 40%;
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right:40px ;
+}
+.location-oakdale{
+  width: 300px;
+  height: 205px;
+  position: relative;
+  bottom: 48%;
+  left: 70%;
+  display: block;
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.tea-cosy{
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+}
+.tea-cosy h5{
+  padding: 20px;
+}
+footer{
+  margin-left:20px ;
+  text-align: left;
+}
